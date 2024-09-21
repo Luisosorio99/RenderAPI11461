@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 app.use('/', router);
 app.get("/",(req,res) => {
   
-  res.json({mesage:"Bienvenido User"});
+  res.json({mesage:"HOLA I AM LIVE!!"});
 })
 
 // Create a Server
